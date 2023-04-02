@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "San Francisco Regular";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+@font-face {
+  font-family: "San Francisco Bold";
+  font-weight: 700;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Lato", serif;
+}
+
+h1 {
+  @apply text-3xl leading-4;
+}
+
+a {
+  @apply text-blue-500 decoration-inherit font-medium hover:text-indigo-500;
+}
+
+button {
+  @apply rounded-lg border-2 border-transparent border-solid px-8 py-4 font-medium bg-green-200 cursor-pointer transition-all;
+}
+
+.modal {
+  @apply bg-white absolute z-50 shadow-xl p-4 left-[45%] top-[10%] rounded-lg;
+}
