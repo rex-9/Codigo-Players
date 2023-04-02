@@ -1,19 +1,18 @@
-import { combineReducers, configureStore } from '@reduxjs/toolkit';
-import { logger } from 'redux-logger';
-import thunk from 'redux-thunk';
-import playerReducer from './player';
-import teamReducer from './team';
-import joinReducer from './join';
+import { combineReducers, configureStore } from "@reduxjs/toolkit";
+import { logger } from "redux-logger";
+import thunk from "redux-thunk";
+import joinReducer from "./join";
+import playerReducer from "./player";
+import teamReducer from "./team";
 
-
-// combined reducers
+// Combined reducers
 const rootReducer = combineReducers({
   players: playerReducer,
   teams: teamReducer,
   joins: joinReducer,
 });
 
-// redux store
+// Redux Store
 const store = configureStore({
   reducer: rootReducer,
   middleware: [logger, thunk],
