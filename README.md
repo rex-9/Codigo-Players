@@ -53,7 +53,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://earn2learn.vercel.app/)
+- [Live Demo Link](https://codigo-team-players.vercel.app/login)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
