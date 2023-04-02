@@ -20,9 +20,9 @@
   - [⭐️ Show your support](#️-show-your-support-)
   - [🙏 Acknowledgments](#-acknowledgments-)
 
-# 📖 [Codigo Players] <a name="about-project"></a>
+# 📖 Codigo Players <a name="about-project"></a>
 
-**[Codigo Players]** is the state management skill test done by Codigo.
+**Codigo Players** is the state management skill test done by Codigo.
 
 ## 🛠 Built With <a name="built-with"></a>
 
